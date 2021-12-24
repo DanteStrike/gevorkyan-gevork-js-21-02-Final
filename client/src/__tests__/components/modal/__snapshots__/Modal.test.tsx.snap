@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Modal should render correctly snapshot default test 1`] = `
+<div
+  className="modal modal--hide"
+>
+  <button
+    className="modal__close"
+    onClick={[Function]}
+    type="button"
+  >
+    X
+  </button>
+  <div
+    className="modal__content"
+  >
+    <OverlayScrollbarsComponent
+      className="modal__scroll-wrap"
+    >
+      <div
+        id="content"
+      />
+    </OverlayScrollbarsComponent>
+  </div>
+</div>
+`;
+
+exports[`Component Modal should render correctly snapshot error test 1`] = `
+<div
+  className="modal modal--hide"
+>
+  <button
+    className="modal__close"
+    onClick={[Function]}
+    type="button"
+  >
+    X
+  </button>
+  <div
+    className="modal__content"
+  >
+    <OverlayScrollbarsComponent
+      className="modal__scroll-wrap"
+    >
+      <div
+        id="content"
+      />
+    </OverlayScrollbarsComponent>
+  </div>
+  <Alert
+    className="content-layout__error"
+    closable={true}
+    message="errMSG"
+    type="error"
+  />
+</div>
+`;

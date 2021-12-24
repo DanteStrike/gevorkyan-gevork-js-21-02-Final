@@ -1,0 +1,34 @@
+@import "variables";
+
+@mixin visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+
+  white-space: nowrap;
+
+  border: 0;
+}
+
+@mixin container {
+  width: 100%;
+  padding: 0 2.3%;
+  margin: 0 auto;
+
+  @media (min-width: $desktopWidth) {
+    width: 1280px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: $tabletWidth) {
+    padding: 0 5px;
+  }
+}

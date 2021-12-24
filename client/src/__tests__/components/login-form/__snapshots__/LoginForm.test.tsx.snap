@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component LoginForm should render correctly snapshot default test 1`] = `
+<ForwardRef(InternalForm)
+  className="login-form"
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  initialValues={
+    Object {
+      "id": "",
+    }
+  }
+  layout="vertical"
+  name="login"
+  onFinish={[Function]}
+  size="middle"
+>
+  <FormItem
+    label="ID:"
+    name="id"
+    rules={
+      Array [
+        [Function],
+      ]
+    }
+  >
+    <Input
+      placeholder="Input ID"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    className="login-form__last"
+  >
+    <Memo(SubmitButton)
+      loading={false}
+    >
+      Enter
+    </Memo(SubmitButton)>
+    <Memo(CustomLink)
+      className="login-form__link"
+      to="/registration"
+    >
+      Haven't account? Register
+    </Memo(CustomLink)>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;
+
+exports[`Component LoginForm should render correctly snapshot loading test 1`] = `
+<ForwardRef(InternalForm)
+  className="login-form"
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  initialValues={
+    Object {
+      "id": "",
+    }
+  }
+  layout="vertical"
+  name="login"
+  onFinish={[Function]}
+  size="middle"
+>
+  <FormItem
+    label="ID:"
+    name="id"
+    rules={
+      Array [
+        [Function],
+      ]
+    }
+  >
+    <Input
+      placeholder="Input ID"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    className="login-form__last"
+  >
+    <Memo(SubmitButton)
+      loading={true}
+    >
+      Enter
+    </Memo(SubmitButton)>
+    <Memo(CustomLink)
+      className="login-form__link"
+      to="/registration"
+    >
+      Haven't account? Register
+    </Memo(CustomLink)>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

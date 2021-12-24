@@ -1,0 +1,45 @@
+@import "src/assets/mixins";
+@import "src/assets/variables";
+
+.header {
+  background-color: var(--primary-background);
+  border-bottom: var(--primary-border);
+
+  &__container {
+    @include container;
+
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+  }
+
+  &__item {
+    display: flex;
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .header {
+    &__container {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    &__item {
+      justify-content: center;
+      border-bottom: var(--primary-border);
+    }
+
+    &__item--logo {
+      order: 1;
+    }
+
+    &__item--menu {
+      order: 3;
+    }
+
+    &__item--auth {
+      order: 2;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Comment should render correctly snapshot default test 1`] = `
+<article
+  className="comment"
+>
+  <div
+    className="comment__top"
+  >
+    <Memo(LinkedAvatar)
+      className="comment__avatar"
+      to="/profile/userID_1"
+      user={
+        Object {
+          "firstName": "anyFN",
+          "id": "userID_1",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        }
+      }
+    />
+    <div
+      className="comment__wrap"
+    >
+      <Memo(CustomLink)
+        to="/profile/userID_1"
+      >
+        <h2
+          className="comment__title"
+        >
+          Ms. antLN anyFN
+        </h2>
+      </Memo(CustomLink)>
+      <p
+        className="comment__date"
+      >
+        un-normalized
+      </p>
+    </div>
+  </div>
+  <p
+    className="comment__text"
+  >
+    message
+  </p>
+</article>
+`;

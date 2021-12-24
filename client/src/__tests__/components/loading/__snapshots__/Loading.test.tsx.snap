@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Loading should render correctly snapshot default test 1`] = `<Fragment />`;
+
+exports[`Component Loading should render correctly snapshot loading test 1`] = `
+<Fragment>
+  <div
+    className="loading"
+  >
+    <Spin
+      size="large"
+      spinning={true}
+      wrapperClassName=""
+    />
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component LangSelector should render correctly snapshot default test 1`] = `
+<ForwardRef(InternalSelect)
+  onChange={[Function]}
+>
+  <Option
+    value="ru"
+  >
+    ru-RU
+  </Option>
+  <Option
+    value="en"
+  >
+    en-EN
+  </Option>
+</ForwardRef(InternalSelect)>
+`;

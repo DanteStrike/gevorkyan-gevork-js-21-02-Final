@@ -1,0 +1,36 @@
+.edit-form {
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: var(--primary-background);
+  border-radius: 15px;
+
+  &__last {
+    margin-bottom: 0;
+  }
+
+  &__date-picker {
+    width: 100%;
+  }
+
+  &__avatar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ant-upload.ant-upload-select-picture-card {
+    padding: 2px;
+    margin: 0;
+    border-width: 2px;
+    border-radius: 50%;
+  }
+
+  .ant-form-item-label {
+    padding: 0;
+    font-weight: 700;
+  }
+
+  .ant-form-item-label > label {
+    color: var(--primary-font-color);
+  }
+}

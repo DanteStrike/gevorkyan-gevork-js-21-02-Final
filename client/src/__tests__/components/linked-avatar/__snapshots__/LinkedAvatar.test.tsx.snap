@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component LinkedAvatar should render correctly snapshot default test 1`] = `
+<Memo(CustomLink)
+  className="anyClass"
+  to="anyRoute"
+>
+  <Avatar
+    shape="circle"
+    size="default"
+    src="url"
+  />
+</Memo(CustomLink)>
+`;

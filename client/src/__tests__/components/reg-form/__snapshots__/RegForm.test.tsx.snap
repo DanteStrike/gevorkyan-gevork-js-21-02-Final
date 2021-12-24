@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component RegForm should render correctly snapshot default test 1`] = `
+<ForwardRef(InternalForm)
+  className="reg-form"
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  initialValues={
+    Object {
+      "dateOfBirth": "",
+      "email": "",
+      "gender": "male",
+      "name": "",
+      "phone": "",
+    }
+  }
+  layout="vertical"
+  name="registration"
+  onFinish={[Function]}
+  size="middle"
+  validateTrigger="onSubmit"
+>
+  <FormItem
+    label="Full name:"
+    name="name"
+    rules={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  >
+    <Input
+      placeholder="Input full name"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    className="reg-form__gender"
+    label="Gender:"
+    name="gender"
+  >
+    <Memo(ForwardRef)
+      className="reg-form__gender-container"
+    >
+      <Radio
+        type="radio"
+        value="male"
+      >
+        Male
+      </Radio>
+      <Radio
+        type="radio"
+        value="female"
+      >
+        Female
+      </Radio>
+      <Radio
+        type="radio"
+        value="other"
+      >
+        Other
+      </Radio>
+    </Memo(ForwardRef)>
+  </FormItem>
+  <FormItem
+    label="Date of birth:"
+    name="dateOfBirth"
+    rules={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  >
+    <Picker
+      className="reg-form__date-picker"
+      disabledDate={[Function]}
+      placeholder="Choose date"
+    />
+  </FormItem>
+  <FormItem
+    label="E-mail:"
+    name="email"
+    rules={
+      Array [
+        [Function],
+        Object {
+          "message": "Input correct email",
+          "type": "email",
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="anonim@gmail.com"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="Phone:"
+    name="phone"
+    rules={
+      Array [
+        [Function],
+        Object {
+          "message": "Input correct phone",
+          "pattern": /\\^\\\\\\+\\?7\\(\\\\d\\{10\\}\\)\\$/,
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="+79995553322"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    className="reg-form__last"
+  >
+    <Memo(SubmitButton)
+      loading={false}
+    >
+      Register
+    </Memo(SubmitButton)>
+    <Memo(CustomLink)
+      className="reg-form__link"
+      to="/login"
+    >
+      Do you have account? Login
+    </Memo(CustomLink)>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;
+
+exports[`Component RegForm should render correctly snapshot loading test 1`] = `
+<ForwardRef(InternalForm)
+  className="reg-form"
+  form={
+    Object {
+      "__INTERNAL__": Object {
+        "itemRef": [Function],
+      },
+      "getFieldError": [Function],
+      "getFieldInstance": [Function],
+      "getFieldValue": [Function],
+      "getFieldsError": [Function],
+      "getFieldsValue": [Function],
+      "getInternalHooks": [Function],
+      "isFieldTouched": [Function],
+      "isFieldValidating": [Function],
+      "isFieldsTouched": [Function],
+      "isFieldsValidating": [Function],
+      "resetFields": [Function],
+      "scrollToField": [Function],
+      "setFields": [Function],
+      "setFieldsValue": [Function],
+      "submit": [Function],
+      "validateFields": [Function],
+    }
+  }
+  initialValues={
+    Object {
+      "dateOfBirth": "",
+      "email": "",
+      "gender": "male",
+      "name": "",
+      "phone": "",
+    }
+  }
+  layout="vertical"
+  name="registration"
+  onFinish={[Function]}
+  size="middle"
+  validateTrigger="onSubmit"
+>
+  <FormItem
+    label="Full name:"
+    name="name"
+    rules={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  >
+    <Input
+      placeholder="Input full name"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    className="reg-form__gender"
+    label="Gender:"
+    name="gender"
+  >
+    <Memo(ForwardRef)
+      className="reg-form__gender-container"
+    >
+      <Radio
+        type="radio"
+        value="male"
+      >
+        Male
+      </Radio>
+      <Radio
+        type="radio"
+        value="female"
+      >
+        Female
+      </Radio>
+      <Radio
+        type="radio"
+        value="other"
+      >
+        Other
+      </Radio>
+    </Memo(ForwardRef)>
+  </FormItem>
+  <FormItem
+    label="Date of birth:"
+    name="dateOfBirth"
+    rules={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  >
+    <Picker
+      className="reg-form__date-picker"
+      disabledDate={[Function]}
+      placeholder="Choose date"
+    />
+  </FormItem>
+  <FormItem
+    label="E-mail:"
+    name="email"
+    rules={
+      Array [
+        [Function],
+        Object {
+          "message": "Input correct email",
+          "type": "email",
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="anonim@gmail.com"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    label="Phone:"
+    name="phone"
+    rules={
+      Array [
+        [Function],
+        Object {
+          "message": "Input correct phone",
+          "pattern": /\\^\\\\\\+\\?7\\(\\\\d\\{10\\}\\)\\$/,
+        },
+      ]
+    }
+  >
+    <Input
+      placeholder="+79995553322"
+      type="text"
+    />
+  </FormItem>
+  <FormItem
+    className="reg-form__last"
+  >
+    <Memo(SubmitButton)
+      loading={true}
+    >
+      Register
+    </Memo(SubmitButton)>
+    <Memo(CustomLink)
+      className="reg-form__link"
+      to="/login"
+    >
+      Do you have account? Login
+    </Memo(CustomLink)>
+  </FormItem>
+</ForwardRef(InternalForm)>
+`;

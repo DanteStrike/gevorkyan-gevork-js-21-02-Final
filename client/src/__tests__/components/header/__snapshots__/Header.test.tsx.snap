@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Header should render correctly snapshot default test 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="header__container"
+  >
+    <div
+      className="header__item header__item--logo"
+    >
+      <Memo(Logo) />
+    </div>
+    <div
+      className="header__item header__item--menu"
+    >
+      <Memo(Menu) />
+    </div>
+    <div
+      className="header__item header__item--auth"
+    >
+      <Memo(ConnectedAuth) />
+    </div>
+  </div>
+</header>
+`;

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Footer should render correctly snapshot default test 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="footer__container"
+  >
+    <p
+      className="footer__item footer__item--copyright"
+    >
+      Delta World © 1970-2077
+    </p>
+    <div
+      className="footer__item footer__item--switchers"
+    >
+      <LangSelector />
+      <ThemeSwitcher />
+    </div>
+  </div>
+</footer>
+`;

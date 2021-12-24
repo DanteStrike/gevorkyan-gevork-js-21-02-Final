@@ -1,0 +1,26 @@
+@import "src/assets/mixins";
+
+.app {
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+  height: 100%;
+
+  &__header {
+    grid-area: header;
+  }
+
+  &__content {
+    @include container;
+    display: flex;
+    grid-area: content;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__footer {
+    grid-area: footer;
+  }
+}
