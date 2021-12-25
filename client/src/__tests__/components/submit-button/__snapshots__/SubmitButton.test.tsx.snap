@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component SubmitButton should render correctly snapshot children test 1`] = `
+<Button
+  block={true}
+  className="button"
+  htmlType="submit"
+  loading={false}
+  type="primary"
+>
+  <div>
+    text
+  </div>
+</Button>
+`;
+
+exports[`Component SubmitButton should render correctly snapshot default test 1`] = `
+<Button
+  block={true}
+  className="button"
+  htmlType="submit"
+  loading={false}
+  type="primary"
+/>
+`;
+
+exports[`Component SubmitButton should render correctly snapshot loading test 1`] = `
+<Button
+  block={true}
+  className="button"
+  htmlType="submit"
+  loading={true}
+  type="primary"
+/>
+`;

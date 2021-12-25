@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Routes should render correctly snapshot test 1`] = `
+<Switch>
+  <Route
+    exact={true}
+    path="/"
+  >
+    <Redirect
+      to="/login"
+    />
+  </Route>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/login"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/registration"
+  />
+  <Route
+    exact={true}
+    path="/profile/:id"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/profile/:id/edit"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/profile/:id/:postID"
+    render={[Function]}
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/users"
+  />
+  <Route
+    exact={true}
+    path="/posts"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/posts/:id"
+    render={[Function]}
+  />
+  <Route
+    exact={true}
+    path="/denied"
+    render={[Function]}
+  />
+  <Route
+    render={[Function]}
+  />
+</Switch>
+`;

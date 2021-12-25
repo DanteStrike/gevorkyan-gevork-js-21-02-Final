@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly mode ready snapshot 1`] = `<Memo(MainLayout) />`;
+
+exports[`App should render correctly mode waiting snapshot 1`] = `
+<Memo(Loading)
+  isLoading={true}
+/>
+`;

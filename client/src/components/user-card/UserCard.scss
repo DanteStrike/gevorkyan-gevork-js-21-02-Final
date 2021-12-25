@@ -1,0 +1,35 @@
+@import "src/assets/variables";
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 300px;
+  padding: 5%;
+  background-color: var(--primary-background);
+  border: var(--primary-border);
+  border-radius: 15px;
+
+  &__title {
+    width: 100%;
+    font-size: 20px;
+    color: var(--primary-font-color);
+    text-align: center;
+  }
+
+  &__img {
+    flex-grow: 1;
+    width: 200px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .user-card {
+    margin: 0 auto;
+  }
+}

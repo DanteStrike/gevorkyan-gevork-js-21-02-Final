@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component UploadButton should render correctly snapshot default test 1`] = `
+<div>
+  <ForwardRef(PlusOutlined) />
+  <div
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+  >
+    Upload
+  </div>
+</div>
+`;
+
+exports[`Component UploadButton should render correctly snapshot loading test 1`] = `
+<div>
+  <ForwardRef(PlusOutlined) />
+  <div
+    style={
+      Object {
+        "marginTop": 8,
+      }
+    }
+  >
+    Upload
+  </div>
+</div>
+`;

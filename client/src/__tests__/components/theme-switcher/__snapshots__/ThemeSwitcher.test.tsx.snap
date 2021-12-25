@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component ThemeSwitcher should render correctly snapshot default test 1`] = `
+<Switch
+  checked={false}
+  checkedChildren="Dark theme"
+  className="theme-switcher"
+  onChange={[Function]}
+  unCheckedChildren="Light theme"
+/>
+`;

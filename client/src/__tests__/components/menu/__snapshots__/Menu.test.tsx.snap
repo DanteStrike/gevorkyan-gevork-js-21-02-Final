@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Menu should render correctly snapshot default test 1`] = `
+<Menu
+  className="menu"
+  mode="horizontal"
+  selectedKeys={Array []}
+>
+  <MenuItem
+    className="menu__item"
+    icon={
+      <ForwardRef(UserOutlined)
+        style={
+          Object {
+            "fontSize": "20px",
+          }
+        }
+      />
+    }
+    key="users"
+  >
+    <Memo(CustomLink)
+      className="menu__link"
+      to="/users"
+    >
+      <span
+        className="menu__text"
+      >
+        users
+      </span>
+    </Memo(CustomLink)>
+  </MenuItem>
+  <MenuItem
+    className="menu__item"
+    icon={
+      <ForwardRef(PictureOutlined)
+        style={
+          Object {
+            "fontSize": "20px",
+          }
+        }
+      />
+    }
+    key="posts"
+  >
+    <Memo(CustomLink)
+      className="menu__link"
+      to="/posts"
+    >
+      <span
+        className="menu__text"
+      >
+        posts
+      </span>
+    </Memo(CustomLink)>
+  </MenuItem>
+</Menu>
+`;

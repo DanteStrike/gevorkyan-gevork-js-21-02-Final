@@ -1,0 +1,28 @@
+@import "src/assets/variables";
+
+.app-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+
+  &--table {
+    min-height: 672px;
+  }
+
+  &--row-small {
+    min-height: unset;
+  }
+
+  &--row-small &__nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .app-list__nav {
+    display: flex;
+    justify-content: center;
+  }
+}
