@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component MainLayout should render correctly snapshot default test 1`] = `
+<div
+  className="main-layout"
+>
+  <div
+    className="main-layout__header"
+  >
+    <Memo(Header) />
+  </div>
+  <div
+    className="main-layout__content"
+  >
+    <Memo(Routes) />
+  </div>
+  <div
+    className="main-layout__footer"
+  >
+    <Memo(Footer) />
+  </div>
+</div>
+`;

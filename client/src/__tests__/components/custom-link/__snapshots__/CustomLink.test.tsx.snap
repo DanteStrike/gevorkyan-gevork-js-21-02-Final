@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CustomLink should render correctly snapshot default test 1`] = `
+<Link
+  className="custom-link link"
+  to="/route"
+>
+  <div
+    id="content"
+  />
+</Link>
+`;

@@ -1,0 +1,36 @@
+.comment {
+  width: 100%;
+  max-height: 250px;
+  padding: 5px;
+  background-color: var(--primary-background);
+  border: var(--primary-border);
+  border-radius: 15px;
+
+  &__top {
+    display: flex;
+    border-bottom: var(--primary-border);
+  }
+
+  &__avatar {
+    align-self: center;
+    margin-right: 5px;
+  }
+
+  &__title {
+    padding: 0;
+    line-height: 1;
+    color: var(--primary-font-color);
+  }
+
+  &__date {
+    font-size: 12px;
+    line-height: 1;
+    color: var(--secondory-font-color);
+  }
+
+  &__text {
+    padding: 5px;
+    line-height: 1.1;
+    color: var(--primary-font-color);
+  }
+}

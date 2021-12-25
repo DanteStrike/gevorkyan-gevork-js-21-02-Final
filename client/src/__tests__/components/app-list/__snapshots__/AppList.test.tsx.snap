@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component AppList should render correctly snapshot default test 1`] = `
+<List
+  className="app-list app-list--table"
+  dataSource={
+    Array [
+      Object {
+        "id": "postID_1",
+        "image": "postIMG_URL",
+        "owner": Object {
+          "firstName": "anyFN",
+          "id": "userID_1",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        },
+        "publishDate": "un-normalized",
+        "text": "postText",
+      },
+      Object {
+        "id": "postID_2",
+        "image": "postIMG_URL",
+        "owner": Object {
+          "firstName": "anyFN",
+          "id": "userID_1",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        },
+        "publishDate": "un-normalized",
+        "text": "postText",
+      },
+      Object {
+        "id": "postID_3",
+        "image": "postIMG_URL",
+        "owner": Object {
+          "firstName": "anyFN",
+          "id": "userID_2",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        },
+        "publishDate": "un-normalized",
+        "text": "postText",
+      },
+    ]
+  }
+  grid={
+    Object {
+      "gutter": 15,
+      "lg": 3,
+      "md": 2,
+      "sm": 2,
+      "xl": 3,
+      "xs": 1,
+      "xxl": 3,
+    }
+  }
+  loading={false}
+  pagination={
+    Object {
+      "className": "app-list__nav",
+      "current": 1,
+      "defaultCurrent": 1,
+      "disabled": false,
+      "onChange": [MockFunction],
+      "pageSize": 5,
+      "showSizeChanger": false,
+      "total": 3,
+    }
+  }
+  renderItem={[MockFunction]}
+/>
+`;

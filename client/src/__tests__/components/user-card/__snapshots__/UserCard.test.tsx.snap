@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component UserPreview should render correctly snapshot default test 1`] = `
+<article
+  className="user-card"
+  id="#user-userID_1"
+>
+  <img
+    alt="Ms. antLN anyFN"
+    className="user-card__img"
+    src="url"
+  />
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    getPopupContainer={[Function]}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    placement="top"
+    title="userID_1"
+  >
+    <h2
+      className="user-card__title"
+    >
+      Ms. antLN anyFN
+    </h2>
+  </Tooltip>
+</article>
+`;
+
+exports[`Component UserPreview should render correctly snapshot undefined picture test 1`] = `
+<article
+  className="user-card"
+  id="#user-userID_1"
+>
+  <div
+    className="user-card__img"
+  />
+  <Tooltip
+    arrowPointAtCenter={false}
+    autoAdjustOverflow={true}
+    getPopupContainer={[Function]}
+    mouseEnterDelay={0.1}
+    mouseLeaveDelay={0.1}
+    placement="top"
+    title="userID_1"
+  >
+    <h2
+      className="user-card__title"
+    >
+      Ms. antLN anyFN
+    </h2>
+  </Tooltip>
+</article>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CustomLink should render correctly snapshot default test 1`] = `
+<main
+  className="content-layout content-layout--full"
+>
+  <h1
+    className="content-layout__title"
+  >
+    header
+  </h1>
+  <div
+    id="content"
+  />
+</main>
+`;
+
+exports[`Component CustomLink should render correctly snapshot error test 1`] = `
+<main
+  className="content-layout content-layout--content"
+>
+  <h1
+    className="content-layout__title"
+  >
+    header
+  </h1>
+  <div
+    id="content"
+  />
+  <Alert
+    className="content-layout__error"
+    closable={true}
+    message="error"
+    type="error"
+  />
+</main>
+`;
+
+exports[`Component CustomLink should render correctly snapshot mode test 1`] = `
+<main
+  className="content-layout content-layout--content"
+>
+  <h1
+    className="content-layout__title"
+  >
+    header
+  </h1>
+  <div
+    id="content"
+  />
+</main>
+`;

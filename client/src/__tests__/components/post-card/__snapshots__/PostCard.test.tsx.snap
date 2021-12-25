@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component RegForm should render correctly snapshot comments render test 1`] = `
+<article
+  className="post-card  post-card--modal"
+>
+  <Memo(Loading)
+    isLoading={false}
+  />
+  <div
+    className="post-card__top "
+  >
+    <Memo(LinkedAvatar)
+      className="post-card__avatar"
+      to="/profile/userID_1"
+      user={
+        Object {
+          "firstName": "anyFN",
+          "id": "userID_1",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        }
+      }
+    />
+    <div
+      className="post-card__wrap"
+    >
+      <Tooltip
+        arrowPointAtCenter={false}
+        autoAdjustOverflow={true}
+        getPopupContainer={[Function]}
+        mouseEnterDelay={0.1}
+        mouseLeaveDelay={0.1}
+        placement="topLeft"
+        title="postID_1"
+      >
+        <Memo(CustomLink)
+          to="/profile/userID_1"
+        >
+          <h2
+            className="post-card__title"
+          >
+            Ms. antLN anyFN
+          </h2>
+        </Memo(CustomLink)>
+      </Tooltip>
+      <p
+        className="post-card__date"
+      >
+        un-normalized
+      </p>
+    </div>
+  </div>
+  <Memo(CustomLink)
+    className="post-card__main"
+    to="postRoute"
+  >
+    <img
+      alt="postID_1"
+      className="post-card__img"
+      src="postIMG_URL"
+    />
+    <p
+      className="post-card__text"
+    >
+      postText
+    </p>
+  </Memo(CustomLink)>
+  <div
+    className="post-card__comments"
+  >
+    <div>
+      Comments
+    </div>
+  </div>
+</article>
+`;
+
+exports[`Component RegForm should render correctly snapshot default test 1`] = `
+<article
+  className="post-card  "
+>
+  <Memo(Loading)
+    isLoading={false}
+  />
+  <div
+    className="post-card__top "
+  >
+    <Memo(LinkedAvatar)
+      className="post-card__avatar"
+      to="/profile/userID_1"
+      user={
+        Object {
+          "firstName": "anyFN",
+          "id": "userID_1",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        }
+      }
+    />
+    <div
+      className="post-card__wrap"
+    >
+      <Tooltip
+        arrowPointAtCenter={false}
+        autoAdjustOverflow={true}
+        getPopupContainer={[Function]}
+        mouseEnterDelay={0.1}
+        mouseLeaveDelay={0.1}
+        placement="topLeft"
+        title="postID_1"
+      >
+        <Memo(CustomLink)
+          to="/profile/userID_1"
+        >
+          <h2
+            className="post-card__title"
+          >
+            Ms. antLN anyFN
+          </h2>
+        </Memo(CustomLink)>
+      </Tooltip>
+      <p
+        className="post-card__date"
+      >
+        un-normalized
+      </p>
+    </div>
+  </div>
+  <Memo(CustomLink)
+    className="post-card__main"
+    to="postRoute"
+  >
+    <img
+      alt="postID_1"
+      className="post-card__img"
+      src="postIMG_URL"
+    />
+    <p
+      className="post-card__text"
+    >
+      postText
+    </p>
+  </Memo(CustomLink)>
+  <div
+    className="post-card__comments"
+  />
+</article>
+`;
+
+exports[`Component RegForm should render correctly snapshot loading test 1`] = `
+<article
+  className="post-card  "
+>
+  <Memo(Loading)
+    isLoading={true}
+  />
+  <div
+    className="post-card__top "
+  >
+    <Memo(LinkedAvatar)
+      className="post-card__avatar"
+      to="/profile/userID_1"
+      user={
+        Object {
+          "firstName": "anyFN",
+          "id": "userID_1",
+          "lastName": "antLN",
+          "picture": "url",
+          "title": "ms",
+        }
+      }
+    />
+    <div
+      className="post-card__wrap"
+    >
+      <Tooltip
+        arrowPointAtCenter={false}
+        autoAdjustOverflow={true}
+        getPopupContainer={[Function]}
+        mouseEnterDelay={0.1}
+        mouseLeaveDelay={0.1}
+        placement="topLeft"
+        title="postID_1"
+      >
+        <Memo(CustomLink)
+          to="/profile/userID_1"
+        >
+          <h2
+            className="post-card__title"
+          >
+            Ms. antLN anyFN
+          </h2>
+        </Memo(CustomLink)>
+      </Tooltip>
+      <p
+        className="post-card__date"
+      >
+        un-normalized
+      </p>
+    </div>
+  </div>
+  <Memo(CustomLink)
+    className="post-card__main"
+    to="postRoute"
+  >
+    <img
+      alt="postID_1"
+      className="post-card__img"
+      src="postIMG_URL"
+    />
+    <p
+      className="post-card__text"
+    >
+      postText
+    </p>
+  </Memo(CustomLink)>
+  <div
+    className="post-card__comments"
+  />
+</article>
+`;

@@ -1,0 +1,68 @@
+@import "src/assets/variables";
+
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 180px;
+  height: 50px;
+
+  &__link {
+    padding: 0 0 0 8px;
+    font-family: var(--secondary-font-family);
+    font-size: 18px;
+    color: inherit;
+  }
+
+  &__link--left {
+    padding-right: 8px;
+    border-right: var(--primary-border);
+  }
+
+  &__link--small {
+    font-size: 12px;
+    color: var(--secondory-font-color);
+  }
+
+  &__btn {
+    padding: 4px 0 0 8px;
+    font-family: var(--secondary-font-family);
+    font-size: 12px;
+    color: var(--secondory-font-color);
+    cursor: pointer;
+    background: unset;
+    border: none;
+    transition: color 0.3s;
+  }
+
+  &__btn:hover {
+    color: #1890ff;
+  }
+
+  &__link--profile {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__user {
+    max-width: 108px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .auth {
+    justify-content: center;
+    height: 40px;
+
+    &__link {
+      padding: 0 8px;
+      font-size: 16px;
+    }
+  }
+}

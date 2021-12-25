@@ -9,7 +9,6 @@ Thumbs.db
 
 # Вспомогательные файлы
 node_modules/
-coverage/
 
 # Папка с собранными файлами проекта
 # build/

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Comment should render correctly snapshot default test 1`] = `
+<div
+  className="auth"
+>
+  <Memo(CustomLink)
+    className="auth__link auth__link--left"
+    to="/login"
+  >
+    Login
+  </Memo(CustomLink)>
+  <Memo(CustomLink)
+    className="auth__link"
+    to="/registration"
+  >
+    Registration
+  </Memo(CustomLink)>
+</div>
+`;
+
+exports[`Component Comment should render correctly snapshot isAuth test 1`] = `
+<div
+  className="auth"
+>
+  <Memo(CustomLink)
+    className="auth__link auth__link--left auth__link--profile"
+    to="/profile/id"
+  >
+    <Avatar
+      shape="circle"
+      size="default"
+      src="url"
+    />
+    <span
+      className="auth__user"
+    >
+      name
+    </span>
+  </Memo(CustomLink)>
+  <button
+    className="auth__btn"
+    onClick={[MockFunction]}
+    type="button"
+  >
+    Logout
+  </button>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component Logo should render correctly snapshot default test 1`] = `
+<Memo(CustomLink)
+  to="/"
+>
+  <div
+    className="logo"
+  >
+    <ForwardRef(TwitterCircleFilled)
+      className="logo__icon"
+    />
+    <p
+      className="logo__title"
+    >
+      Delta World
+    </p>
+  </div>
+</Memo(CustomLink)>
+`;

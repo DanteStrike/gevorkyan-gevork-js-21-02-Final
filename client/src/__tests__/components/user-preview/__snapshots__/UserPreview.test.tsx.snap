@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component UserPreview should render correctly snapshot auth user test 1`] = `
+<article
+  className="user-preview"
+>
+  <Memo(Loading)
+    isLoading={false}
+  />
+  <img
+    alt="Ms. antLN anyFN"
+    className="user-preview__img"
+    src="url"
+  />
+  <p
+    className="user-preview__info"
+  >
+    <span
+      className="user-preview__title"
+    >
+      Ms. antLN anyFN
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Gender:
+      </span>
+       
+      female
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Date of birth:
+      </span>
+       
+      normalized
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Register date:
+      </span>
+       
+      normalized
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Email:
+      </span>
+       
+      email
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Phone:
+      </span>
+       
+      phone
+    </span>
+    <span
+      className="user-preview__row user-preview__row--id"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        ID:
+      </span>
+       
+      userID_full
+    </span>
+  </p>
+  <div
+    className="user-preview__edit"
+  >
+    <Link
+      className="user-preview__edit-text"
+      to="/profile/userID_full/edit"
+    >
+      <ForwardRef(EditOutlined) />
+      Edit
+    </Link>
+  </div>
+</article>
+`;
+
+exports[`Component UserPreview should render correctly snapshot default test 1`] = `
+<article
+  className="user-preview"
+>
+  <Memo(Loading)
+    isLoading={false}
+  />
+  <img
+    alt="Ms. antLN anyFN"
+    className="user-preview__img"
+    src="url"
+  />
+  <p
+    className="user-preview__info"
+  >
+    <span
+      className="user-preview__title"
+    >
+      Ms. antLN anyFN
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Gender:
+      </span>
+       
+      female
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Date of birth:
+      </span>
+       
+      normalized
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Register date:
+      </span>
+       
+      normalized
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Email:
+      </span>
+       
+      email
+    </span>
+    <span
+      className="user-preview__row"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        Phone:
+      </span>
+       
+      phone
+    </span>
+    <span
+      className="user-preview__row user-preview__row--id"
+    >
+      <span
+        className="user-preview__prop"
+      >
+        ID:
+      </span>
+       
+      userID_full
+    </span>
+  </p>
+</article>
+`;

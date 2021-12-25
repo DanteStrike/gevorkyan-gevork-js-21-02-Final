@@ -1,0 +1,29 @@
+@import "src/assets/variables";
+
+.login-form {
+  width: 380px;
+
+  &__last {
+    margin-bottom: 0;
+  }
+
+  &__link {
+    color: var(--secondory-font-color);
+    text-align: center;
+  }
+
+  .ant-form-item-label {
+    padding: 0;
+    font-weight: 700;
+  }
+
+  .ant-form-item-label > label {
+    color: var(--primary-font-color);
+  }
+}
+
+@media (max-width: $tabletWidth) {
+  .login-form {
+    width: 85%;
+  }
+}
